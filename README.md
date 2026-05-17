@@ -93,4 +93,4 @@ dcqcn_sim/
 ## References
 
 - Zhu et al. (2015). [Congestion Control for Large-Scale RDMA Deployments](https://dl.acm.org/doi/10.1145/2785956.2787484). ACM SIGCOMM.
-- NVIDIA. [RoCEv2 Congestion Management](https://docs.nvidia.com/networking).
+- NVIDIA. [RDMA Over Converged Ethernet (RoCE)](https://docs.nvidia.com/networking/display/onyxv3103004/rdma+over+converged+ethernet+(roce)#).
