@@ -47,7 +47,7 @@ A grid search over `g` (1/512 → 1/8) and timer (10 → 150 μs) using a fitnes
 
 ## Build & Run
 
-**Requirements:** C++17, CMake ≥ 3.10, Python 3 with `pandas`, `matplotlib`, `numpy`
+**Requirements:** C++17, CMake ≥ 3.10
 
 ```bash
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
@@ -69,16 +69,6 @@ cmake --build build
 ./build/dcqcn_sim search 50 1000
 ```
 
-**Generate plots:**
-```bash
-python3 plot_results.py
-```
-
-Produces three plots in `build/`:
-- `plot1_throughput.png` — throughput over time, default vs tuned parameters
-- `plot2_heatmap.png` — variance heatmap across the g × timer search space (log scale)
-- `plot3_table.png` — before/after comparison table
-
 ---
 
 ## Project Structure
@@ -95,7 +85,6 @@ dcqcn_sim/
 │   ├── metrics.h          # throughput, variance, Jain's fairness
 │   └── event.h            # discrete event queue
 ├── source/                # implementations
-├── plot_results.py        # matplotlib visualizations
 └── CMakeLists.txt
 ```
 
