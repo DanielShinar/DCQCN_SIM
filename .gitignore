@@ -1,0 +1,11 @@
+.vscode/
+build/
+/DCQCN_Project.docx
+/plot_results.py
+/RDMA Over
+/RDMA Over Converged Ethernet (RoCE) - NVIDIA Docs.pdf
+/p523.pdf
+
+!build/plot1_throughput.png
+!build/plot2_heatmap.png
+!build/plot3_table.png
